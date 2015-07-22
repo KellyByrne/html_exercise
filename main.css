@@ -1,27 +1,65 @@
 /* Select by tagname */
+html {
+	background: url("http://www.wallbeep.com/wp-content/uploads/2015/06/abstract-blue-light-wallpaper-texture-801x501.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+
 h1 {
-  color: red;
+  color: white;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+ 
+
 }
 
 /* Select by classname */
 .header-alt {
-  border-bottom: 2px solid red;
+ color: white;
+  text-align: center;
 }
 
 /* Select a single element by its ID */
 #header-primary {
   text-transform: uppercase;
+  text-align: center;
+  color: white;
 }
 
 /* Select all H1s AND all .header-alts */
 h1,
 .header-alt {
-  border-top: 2px solid blue;
+	color: white;
+  
+  ;
+
 }
+ 
 
 /* Use descendent selectors */
-div p {
-  font-style: italic;
+.inside {
+	color: white;
+  	font-style: italic;
+  	width: 30%;
+  	float: left;
+  	font-size: 20px;
+	opacity: 0.7;
+	padding-left: 30px;
+}
+
+.outside {
+	color: white;
+	width: 30%;
+	float: right;
+	padding-right: 75px;
+	padding-left: 75px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 20px;
+	opacity: 0.7;
 }
 
 /* Target all p's and a's inside of divs */
